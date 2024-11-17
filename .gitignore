@@ -1,0 +1,12 @@
+reports
+.vscode
+!package-lock.json
+node_modules
+# Keep these folders under app/
+!app/android/
+!app/ios/
+app/**/*.ipa
+app/**/*.apk
+output
+logs
+e2e/testData/*.json
